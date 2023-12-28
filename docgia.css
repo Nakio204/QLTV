@@ -1,0 +1,158 @@
+.container{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #ECE3CE
+  }
+  
+  .logo{
+    width: 278px; 
+    height: 209px; 
+    left: 0px; 
+    top: -25px; 
+    position: absolute
+  }
+  
+  .theloai {
+    left: 35px;
+    top: 200px;
+    font-size: 20px;
+    width: 197px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Itim;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    background: #88AB8E;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .thongtintk {
+    left: 300px;
+    top: 200px;
+    font-size: 20px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Itim;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    background: #88AB8E;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .muon {
+    left: 670px;
+    top: 200px;
+    font-size: 20px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Itim;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    background: #88AB8E;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .thongbao {
+    left: 1040px;
+    top: 200px;
+    font-size: 20px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Itim;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    background: #88AB8E;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .dangxuat {
+    width: 130px;
+    height: 70px;
+    left: 1150px;
+    top: 30px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Itim;
+    font-weight: 400;
+    word-wrap: break-word;
+    background: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .timkiem{
+    width: 1087px; 
+    height: 132px; 
+    left: 160px; 
+    top: 322px; 
+    position: absolute; 
+    background: #88AB8E;
+    border-radius: 40px
+  }
+  
+  .thanhtk{
+    width: 1029px; 
+    height: 80px; 
+    left: 20px; 
+    top: 27px; 
+    position: absolute; 
+    background: #EEE7DA; 
+    border-radius: 0px
+  }
+  
+  .tk{
+    width: 202px; 
+    height: 37px; 
+    left: -20px; 
+    top: 20px; 
+    position: absolute; 
+    text-align: center; 
+    color: #092635; 
+    font-size: 30px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    text-transform: capitalize; 
+    word-wrap: break-word
+  }
+  
+  .id{
+    width: 860px; 
+    height: 75px; 
+    left: 170px; 
+    top: 0px; 
+    position: absolute; 
+    background: #EEE7DA;
+    border-radius: 0px;
+    border: 0px solid #ddd
+  }
+  
+  input[type="text"]{
+    font-family: Itim; 
+    font-size: 30px
+  }

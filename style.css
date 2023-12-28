@@ -1,0 +1,186 @@
+
+.container{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F2F1EB
+  }
+  
+  .logo{
+    width: 278px; 
+    height: 209px; 
+    left: 0px; 
+    top: -26px; 
+    position: absolute
+  }
+  
+  .menu-item.active{
+    width: 223px; 
+    height: 62px; 
+    left: 365px; 
+    top: 61px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 40px;
+    text-align: center; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  
+  .menu-item.active:hover{
+    background: #88AB8E
+  }
+  
+  .menu-item1{
+    width: 223px; 
+    height: 62px; 
+    left: 608px; 
+    top: 61px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 40px;
+    text-align: center; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  
+  .menu-item1:hover{
+    background: #88AB8E
+  }
+  
+  .menu-item{
+    width: 223px; 
+    height: 62px; 
+    left: 851px; 
+    top: 61px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 40px;
+    text-align: center; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  .menu-item:hover{
+    background: #88AB8E
+  }
+  
+  .menu-item.logout{
+    width: 188px; 
+    height: 43px; 
+    left: 1160px; 
+    top: 18px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 20px;
+    text-align: center; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  
+  .docgia{
+    width: 243px; 
+    height: 205px; 
+    left: 345px; 
+    top: 225px; 
+    position: absolute
+  }
+  
+  .sach{
+    width: 243px; 
+    height: 205px; 
+    left: 345px; 
+    top: 614px; 
+    position: absolute
+  }
+  
+  .muon{
+    width: 243px; 
+    height: 205px; 
+    left: 852px; 
+    top: 614px; 
+    position: absolute
+  }
+  
+  .theloai{
+    width: 243px; 
+    height: 205px; 
+    left: 852px; 
+    top: 225px; 
+    position: absolute
+  }
+  
+  .qldocgia{
+    width: 203px; 
+    height: 61px; 
+    left: 365px; 
+    top: 471px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 40px;
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  
+  .qlsach{
+    width: 203px; 
+    height: 62px; 
+    left: 365px; 
+    top: 860px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 40px;
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  
+  .qltl{
+    width: 211px; 
+    height: 61px; 
+    left: 863px; 
+    top: 471px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 40px;
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }
+  
+  .qlmuon{
+    width: 202px; 
+    height: 62px; 
+    left: 872px; 
+    top: 857px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 40px;
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Itim; 
+    font-weight: 400; 
+    word-wrap: break-word
+  }

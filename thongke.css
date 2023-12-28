@@ -1,0 +1,141 @@
+.container{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F2F1EB
+  }
+  
+  .bang{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F2F1EB
+  }
+  .logo {
+    width: 278px;
+    height: 209px;
+    left: 0px;
+    top: -30px;
+    position: absolute;
+  }
+  
+  .menu-item.active {
+    width: 223px;
+    height: 62px;
+    left: 365px;
+    top: 80px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 40px;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Itim;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .menu-item.active:hover {
+    background: #88ab8e;
+  }
+  
+  .menu-item1 {
+    width: 223px;
+    height: 62px;
+    left: 608px;
+    top: 80px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 40px;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Itim;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .menu-item1:hover {
+    background: #88ab8e;
+  }
+  
+  .menu-item {
+    width: 223px;
+    height: 62px;
+    left: 851px;
+    top: 80px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 40px;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Itim;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .menu-item:hover {
+    background: #88ab8e;
+  }
+  
+  .menu-item.logout {
+    width: 188px;
+    height: 43px;
+    left: 1160px;
+    top: 0px;
+    position: absolute;
+    background: #d9d9d9;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Itim;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .banghieu {
+    width: 762px;
+    height: 55px;
+    left: 339px;
+    top: -100px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: Itim;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  table {
+    width: 100%;
+    top: 328px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #d9d9d9;
+  }
+  
+  .overdue-table{
+    margin-top: 328px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .overdue-table th,
+  .overdue-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .overdue-table th {
+    background-color: #d9d9d9;
+  }
+  

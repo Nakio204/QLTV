@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Thông tin người mượn</title>
+    <link rel="stylesheet" type="text/css" href="thongtinnguoimuon.css"/>
+    <script>
+      function showHTML() {
+        window.location.href = "index.html";
+      }
+      function thongkeHTML() {
+        window.location.href = "thongke.html";
+      }
+      function timkiemHTML() {
+        window.location.href = "timkiem.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div class = "container">
+      <script language="javascript" src="thongtinnguoimuon.js"></script>
+      <img class = "logo" src="/ee2a59137486dcd88597.jpg" />
+      <nav class = "menu">
+        <button class = "menu-item active" onclick = "showHTML()"> Quản lý</button>
+        <button class = "menu-item1" onclick = "thongkeHTML()"> Thống kê</button>
+        <button class = "menu-item" onclick = "timkiemHTML()"> Tìm kiếm</button>
+        <button class = "menu-item logout" > Đăng xuất</button>
+      </nav>
+    </div>
+    <h2>Thông tin đọc giả</h2>
+    <div class = "timkiem">
+      <select id="searchType">
+        <option value="id">Mã mượn</option>
+        <option value="title">Mã độc giả</option>
+      </select>
+      <input type="text" id="searchQuery" placeholder="Nhập thông tin tìm kiếm...">
+      <button onclick="search()">Tìm kiếm</button>
+    </div>
+    <div id="dgDetails" style="width: 900px; height: 300px;left: 200px;top: 310px; background: #AFC8AD; box-shadow: 2px 2px 2px; border-radius: 20px" >
+        <p id="mamuon"></p>
+        <p id="madocgia"></p>
+        <p id="hoten"></p>
+        <p id="sodienthoai"></p>
+        <p id="ngaysinh"></p>
+        <p id="diachi"></p>
+      </div>
+  </body>
+</html>

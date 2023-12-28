@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Thống kê</title>
+    <script src="/thongke.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="thongke.css"/>
+    <script>
+      function showHTML() {
+        window.location.href = "index.html";
+      }
+      function timkiemHTML() {
+        window.location.href = "timkiem.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div class = "container">
+      <img class = "logo" src="/ee2a59137486dcd88597.jpg" />
+      <nav class = "menu">
+        <button class = "menu-item active" onclick = "showHTML()"> Quản lý</button>
+        <button class = "menu-item1" > Thống kê</button>
+        <button class = "menu-item" onclick = "timkiemHTML()"> Tìm kiếm</button>
+        <button class = "menu-item logout" > Đăng xuất</button>
+      </nav>
+    </div>
+    <div class = "bang">
+      <div class = "banghieu">Danh sách thông báo quá hạn</div>
+      <table class = "overdue-table">
+        <thead>
+          <tr>
+            <th>Mã mượn</th>
+            <th>Mã độc giả</th>
+            <th>Ngày mượn</th>
+            <th>Phí phạt trả muộn</th>
+            <th>Mã sách</th>
+            <th>Ngày trả</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </body>
+</html>

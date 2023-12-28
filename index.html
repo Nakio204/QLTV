@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Thư viện</title>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <script>
+      function showStatistics() {
+        window.location.href = "thongke.html";
+      }
+      function timkiemStatistics() {
+        window.location.href = "timkiem.html";
+      }
+    </script>
+  </head>
+  <body>
+    <script language="javascript" src="/script.js"></script>
+    <div class = "container">
+      <img class = "logo" src="/ee2a59137486dcd88597.jpg" />
+      <nav class = "menu">
+        <button class = "menu-item active" > Quản lý</button>
+        <button class = "menu-item1" onclick="showStatistics()"> Thống kê</button>
+        <button class = "menu-item" onclick="timkiemStatistics()"> Tìm kiếm</button>
+        <button class = "menu-item logout" > Đăng xuất</button>
+      </nav>
+      <div class = "luachon">
+        <img class = "docgia" src="/153be8e8da7d72232b6c.jpg" />
+        <img class = "sach" src="/9c585b826917c1499806.jpg" />
+        <img class = "muon" src="/6c0685f3b7661f384677.jpg" />
+        <img class = "theloai" src="/cb9e306002f5aaabf3e4.jpg" />
+        <nav class = "luachon">
+          <button class = "qldocgia">QL Độc Giả</button>
+          <button class = "qlsach">QL Sách</button>
+          <button class = "qltl">QL Thể Loại</button>
+          <button class = "qlmuon">QL Mượn/Trả</button>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

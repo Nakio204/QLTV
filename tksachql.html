@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Tìm kiếm sách</title>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="/tksachql.css"/>
+    <script>
+      function showStatistics() {
+        window.location.href = "thongke.html";
+      }
+      function showHTML() {
+        window.location.href = "index.html";
+      }
+      function timkiemHTML() {
+        window.location.href = "index.html";
+      }
+    </script>
+  </head>
+  <body>
+    <script language="javascript" src="tksachql.js"></script>
+    <div class = "container">
+      <img class = "logo" src="/ee2a59137486dcd88597.jpg" />
+      <nav class = "menu">
+        <button class = "menu-item active" onclick = "showHTML()"> Quản lý</button>
+        <button class = "menu-item1" onclick="showStatistics()"> Thống kê</button>
+        <button class = "menu-item" onclick = "timkiemHTML()"> Tìm kiếm</button>
+        <button class = "menu-item logout" > Đăng xuất</button>
+      </nav>
+    </div>
+    <h2>TÌM KIẾM SÁCH</h2>
+    <div class = "timkiem">
+      <select id="searchType">
+        <option value="Masach">Mã Sách</option>
+        <option value="Tensach">Tên Sách</option>
+      </select>
+      <input type="text" id="searchQuery" placeholder="Nhập thông tin tìm kiếm...">
+      <button onclick="searchBook()">Tìm Sách</button>
+    </div>
+    <div id="bookDetails" style="width: 1150px; height: 450px;left: 100px;top: 310px; background: #AFC8AD; box-shadow: 2px 2px 2px; border-radius: 20px" >
+        <p id="masach"></p>
+        <p id="tensach"></p>
+        <p id="tg"></p>
+        <p id="theloai"></p>
+        <p id="nhaxb"></p>
+        <p id="NXB"></p>
+        <p id="soluong"></p>
+        <p id="damuon"></p>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+div.header{
+    float: top;
+    background-image:linear-gradient(to right, black 0%, pink 120%);
+    height: 120px;
+    padding: 0%;
+}
+.dangnhap{
+    text-align: center;
+    color:black;
+    font-family: Arial;
+    margin: 20px;
+}
+.formdn{
+    font-size: 22px;
+    width: 700px;
+    height: 450px;
+    float: left;
+    background: rgba(236, 229, 229, 0.1);
+    border:solid 2px;
+    border-radius:20px;
+    border-color: #2F5597;
+    text-align: right;
+    position: absolute;
+    left:50%;
+    margin-top: 220px ;
+	transform: translate(-50%, -50%);
+}
+.canle{
+    margin: 95px 130px 50px 50px;
+}
+input.thongtin{
+    font-family: Arial;
+    font-size: 20px;
+    width:315px;
+}
+a{
+    background-color: none;
+    width: 300px;
+    height:40px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: arial;
+    color:black;
+    float:left;
+}
+a:hover{
+    color: #000000b8;
+}
+.TrangChu{
+    margin: 15px 500px 15px 60px;
+    background: url('https://scontent.fhan8-1.fna.fbcdn.net/v/t1.15752-9/286761140_3111196815861244_5734721994971409733_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=F5aW2t9uJtIAX_AEACO&_nc_oc=AQnOF2C3P4ykh8HBkdu8ni4vYdsk2KJZodZGKRUzjGx4zj2fDFwYDBq0PccHLTnAnaE&_nc_ht=scontent.fhan8-1.fna&oh=03_AVIttx3BrZ0q2zw6KlKxX9xiVaYCz46kSZx_iimAij-V7g&oe=62C51DA0');
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border: none;
+}
+.canleNutDN
+{
+    margin: 60px 20px 40px 110px;
+}
+.btn{
+    float: left;
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 120px;
+    font-size: 15px;
+    font-family: Arial;
+    background-color: #222;
+    padding: 17px 40px;
+    margin: 0 auto;
+
+}
+.btn span{
+    position: relative; 
+    z-index: 1;
+}
+.btn:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    color: white;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn:hover:after{
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}

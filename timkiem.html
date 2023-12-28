@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Tìm kiếm sách</title>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="timkiem.css"/>
+    <script>
+      function showStatistics() {
+        window.location.href = "thongke.html";
+      }
+      function showHTML() {
+        window.location.href = "index.html";
+      }
+      function showtimsach() {
+        window.location.href = "tksachql.html";
+      }
+      function showphieu() {
+        window.location.href = "thongtinnguoimuon.html";
+      }
+    </script>
+  </head>
+  <body>
+    <script language="javascript" src="script.js"></script>
+    <div class = "container">
+      <img class = "logo" src="/ee2a59137486dcd88597.jpg" />
+      <nav class = "menu">
+        <button class = "menu-item active" onclick = "showHTML()"> Quản lý</button>
+        <button class = "menu-item1" onclick="showStatistics()"> Thống kê</button>
+        <button class = "menu-item" > Tìm kiếm</button>
+        <button class = "menu-item logout" > Đăng xuất</button>
+      </nav>
+    </div>
+    <div>
+      <div style="width: 406px; height: 649px; left: 235px; top: 250px; position: absolute; background: #EEE7DA; box-shadow: 2px 2px 2px; border-radius: 20px;filter: blur(0px) ">
+        <button style="width: 337px; height: 80px; left: 30px; top: 510px; position: absolute; background: #AFC8AD; border-radius: 40px;font-size: 32px; font-family: Itim" onclick = "showtimsach()"> Tìm sách</button>
+      </div>
+      <img style="width: 352px; height: 418px; left: 264px; top: 300px; position: absolute; mix-blend-mode: darken" src="/Rectangle 60.png" />
+      <div style="width: 406px; height: 649px; left: 832px; top: 250px; position: absolute; background: #EEE7DA; box-shadow: 2px 2px 2px; border-radius: 20px; filter: blur(0px)">
+          <button style="width: 337px; height: 80px; left: 35px; top: 510px; position: absolute; background: #AFC8AD; border-radius: 40px;font-size: 32px; font-family: Itim" onclick = "showphieu()">Thông tin người mượn</button>
+      </div>
+      <img style="width: 352px; height: 418px; left: 867px; top: 300px; position: absolute" src="/Rectangle 61.png" />
+    </div>
+  </body>
+</html>
